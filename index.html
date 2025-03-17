@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Islamisches Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard">
+        <div class="date-time">
+            <h2 id="date"></h2>
+            <h1 id="time"></h1>
+            <input type="date" id="date-picker" value=""> <!-- Wert wird in script.js gesetzt -->
+        </div>
+        
+        <div class="prayer-times">
+            <h2>Gebetszeiten (Flawil)</h2>
+            <ul id="prayer-list">
+                <li>Fajr: <span id="fajr"></span></li>
+                <li>Duhr: <span id="dhuhr"></span></li>
+                <li>Asr: <span id="asr"></span></li>
+                <li>Maghrib: <span id="maghrib"></span></li>
+                <li>Isha: <span id="isha"></span></li>
+            </ul>
+            <p id="next-prayer"></p> <!-- Neue Zeile für die verbleibende Zeit -->
+            <p id="time-to-maghrib"></p> <!-- Zeit bis zum Maghrib-Gebet -->
+        </div>
+
+        <div class="quran">
+            <h2>Quranvers</h2>
+            <p id="quran-text"></p>
+            <small id="quran-source"></small>
+        </div>
+
+        
+            
+            <p id="hadith-text"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

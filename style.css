@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url('hintergrund.jpg') no-repeat center center/cover; /* Dein Hintergrundbild */
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Hintergrund für das gesamte Dashboard */
+    border-radius: 15px;
+    width: 90%;
+    max-width: 600px;
+}
+
+.date-time h1 {
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+#date-picker {
+    font-size: 1.2rem;
+    padding: 5px;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.prayer-times, .quran, .hadith {
+    background: rgba(0, 0, 0, 0.4); /* Weniger Deckkraft */
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+#next-prayer {
+    font-size: 1.1rem;
+    color: yellow; /* Farbe für die verbleibende Zeit */
+}
+
+#time-to-maghrib {
+    font-size: 1.1rem;
+}
